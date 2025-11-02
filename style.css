@@ -5,3 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    background-color: hsla(240, 48%, 65%, 0.808);
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
