@@ -10,20 +10,35 @@ html{
     background-color: hsla(240, 48%, 65%, 0.808);
     font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 18px;
+    padding: 18px;
 }
 
 .container {
-    padding: 32px;
+    padding: 16px;
     background-color: azure;
-    height: 200px;
-    width: 200px;
-    border-radius: 20%;
-    display:flex;
+    height: 60px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    /* allow the container to span the available horizontal space so children can distribute */
+}
+
+.title{
+    color: hsl(240, 73%, 61%);
+}
+
+/* make the links wrapper grow to take available space next to the title */
+.links {
+    flex: 1 1 auto;
 }
 
 .links ul{
     list-style-type:none;
-    display:flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%; /* ensure the UL fills the .links area so spacing works */
+    gap: 2rem;
 }
-
