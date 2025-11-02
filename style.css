@@ -22,3 +22,8 @@ html{
     display:flex;
 }
 
+.links ul{
+    list-style-type:none;
+    display:flex;
+}
+
